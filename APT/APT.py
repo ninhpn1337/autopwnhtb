@@ -4,7 +4,7 @@ import subprocess
 import string
 import random
 
-print("\n[\033[1;32m+\033[1;37m] Autopwn Paper ~ Ninhpn - Need root to write hosts file \n")
+print("\n[\033[1;32m+\033[1;37m] Autopwn Paper ~ Ninhpn1337 - Need root to write hosts file \n")
 def check_privileges():
 
     if not os.environ.get("SUDO_UID") and os.geteuid() != 0:
