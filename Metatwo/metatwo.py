@@ -4,7 +4,7 @@ import requests
 
 try:
     from pwn import *
-    print("\n[\033[1;32m+\033[1;37m] Metatwo - Ninhpn\n")
+    print("\n[\033[1;32m+\033[1;37m] Metatwo - Ninhpn1337\n")
 except:
     print("\n[\033[1;31m!\033[1;37m] Sudo please!\n")
     exit(1)
