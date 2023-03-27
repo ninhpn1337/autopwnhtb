@@ -5,7 +5,7 @@ import os
 
 try:
     from pwn import *
-    print("\n[\033[1;32m+\033[1;37m] Broscience - Ninhpn1337\n")
+    print("\n[\033[1;32m+\033[1;37m] Socket - Ninhpn1337\n")
 
 except:
     print("\n[\033[1;31m!\033[1;37m] Sudo please!\n")
