@@ -9,7 +9,7 @@ curl --path-as-is -i -s -k -X $'POST' \
     -H $'Origin: http://127.0.0.1:8882' \
     -H $'Authorization: Basic YW1heTpteWNoZW1pY2Fscm9tYW5jZQ==' \
     -H $'Connection: close' \
-    -H $'Referer: http://127.0.0.1:8882/' \
+    -H $'Referer: http://127.0.0.1:8080/' \
     -H $'Upgrade-Insecure-Requests: 1' \
     -H $'Sec-Fetch-Dest: document' \
     -H $'Sec-Fetch-Mode: navigate' \
